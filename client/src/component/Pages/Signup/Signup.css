@@ -1,0 +1,61 @@
+.signupleftcol {
+    padding: 5% 0 0 0;
+}
+
+.signupheading{
+    text-align: center;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signupinput {
+    border: none;
+    border-radius: 20px;
+    background-color: lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 2% 0 10%;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+
+}
+.fileinput{
+    border-radius: 30px;
+    background-color: lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    margin: 0 2% 0 10%;
+    
+}
+
+.signupbutton {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(77, 155, 77);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 2% 0 10%;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .signupmaincontainer {
+        flex-direction: column-reverse;
+    }
+    .signupinput {
+        border: none;
+        border-radius: 20px;
+        background-color: lightgrey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 5% 2% 0 10%;
+        width: 80%;
+        height: 50px;
+        text-align: center;
+    
+    }
+}
+

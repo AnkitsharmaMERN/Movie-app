@@ -1,0 +1,29 @@
+.category-name {
+    margin-top: 0;
+    font-size: 17px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    color: #fff;
+    background: #f57f26;
+    box-shadow: 0 1px 1px rgb(204 197 185 / 50%);
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    height: 100%;
+}
+.material-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.card-block {
+    display: flex;
+    /* margin: 10px 10px 0 20px; */
+    margin: auto;
+    /* border: 1px solid black; */
+
+}
+/* .center{
+    justify-content: center;
+    
+} */

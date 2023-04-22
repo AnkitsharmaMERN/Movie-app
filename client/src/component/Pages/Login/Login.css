@@ -1,0 +1,75 @@
+.leftcol {
+    padding: 15% 0 0 0;
+}
+
+.heading {
+    text-align: center;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input {
+    border: none;
+    border-radius: 20px;
+    background-color: lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 2% 0 10%;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+
+}
+
+.loginbutton {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(77, 155, 77);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3% 2% 0 10%;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+}
+
+.loginpic {
+    /* border: 1px solid black; */
+    margin: 10px 10px 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.link {
+    margin: 3% 2% 0 10%;
+    ;
+}
+
+.forgetlink {
+    float: right;
+    margin-right: 10%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signuplink {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:800px) {
+    .maincontainer {
+        /* display: flex; */
+        flex-direction: column-reverse;
+    }
+    .input {
+        border: none;
+        border-radius: 20px;
+        background-color: lightgrey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 5% 2% 0 10%;
+        width: 80%;
+        height: 50px;
+        text-align: center;
+    
+    }
+}

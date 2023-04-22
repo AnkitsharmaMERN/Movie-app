@@ -1,0 +1,99 @@
+
+.main_container{
+    display: flex;
+    /* height: 95rem; */
+    /* background-color: lightgray; */
+}
+.left-container{
+    margin-top: 5px;
+    width: 50%;
+    float: left;
+    /* position: relative; */
+    display: block;
+    /* border: 1px dotted black; */
+}
+.MovieDetailsheading{
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.MovieDetailsimage{ 
+height: 35rem;
+width: 80%;
+margin: auto;
+border-radius: 10px;
+}  
+
+.MoviesScreenshotdiv{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.screenshotImage{
+    margin:10px 5px 10px 20px;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+.right-container1{
+    margin-top: 5px;
+    width: 40%;
+    /* float: right; */
+    /* border: 1px solid black;    */
+}
+
+.Moviescategory_heading {
+    /* border: 1px solid black; */
+    padding: 5px 10px 5px 20px;
+    color: #fff;
+    background: #f57f26;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: center;
+}
+.Movieslist-group{
+    border: 1px solid black;
+    background: #0F9D58;
+    list-style-type: none;
+    color: #fff;
+    overflow: hidden;
+    /* height: 100%; */
+}
+.Movieslist-item{
+    margin:10px 25px 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.button-class{
+    display: inline-block;
+    text-align: center;
+   
+}
+.Downloaditem{
+   margin: 0 25px 10px 25px;
+    
+}
+
+@media screen and (max-width:1200px) {
+    .screenshotImage{
+        /* margin:10px 5px 10px 20px; */
+        width: 20vh;
+        /* height: 100%; */
+        /* border-radius: 10px; */
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .left-container{
+        margin-top: 10px;
+        width: auto;
+        float: none;
+    } 
+    .right-container1{
+        margin-top: 5px;
+        width: 100%; 
+        float: none;
+        /* border: 1px dotted black;    */
+    }
+}
